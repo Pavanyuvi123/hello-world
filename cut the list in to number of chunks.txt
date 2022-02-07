@@ -1,0 +1,4 @@
+list1=[45,8,56,8,7,9,58,54,545,87,4,84,84]
+n=4
+out=[list1[i:i+n] for i in range(0,len(list1),n)]
+print(out)

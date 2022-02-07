@@ -1,0 +1,7 @@
+def swap_fun(simple_list):
+    temp=simple_list[0]
+    simple_list[0]=simple_list[-1]
+    simple_list[-1]=temp
+    return simple_list
+simple_list=[5,25,84,64,45,85]
+print(swap_fun(simple_list))

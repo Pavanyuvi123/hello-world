@@ -1,0 +1,9 @@
+try:
+    x=int(input("enter the value: "))
+    y=int(input("enter the value: "))
+    z=x//y
+    print(z)
+except ZeroDivisionError:
+    print("zero cant divide")
+else:
+    print("this number can divide the dividend")

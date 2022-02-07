@@ -1,0 +1,7 @@
+list1=[]
+n=int(input("enter the value: "))
+for i in range(0,n):
+    b=int(input("enter the number:"))
+    list1.append(b)
+    list1.sort()
+print("the second largest number is:",list1[-1])

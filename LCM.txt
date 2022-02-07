@@ -1,0 +1,15 @@
+def LCM(a,b):
+   if a>b:
+       higher=a
+   else:
+        higher=b
+   value = higher
+   while True:     
+    if higher%a==0 and higher%b==0 :
+        return higher
+    else:
+        higher=higher+value
+        
+a=int(input("enter the value of first number: "))
+b=int(input("enter the value of second number: "))
+print("LCM of two numbers:", LCM(a,b))

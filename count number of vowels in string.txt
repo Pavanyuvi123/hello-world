@@ -1,0 +1,22 @@
+sentence=input("enter the sentence: ")
+sentence.lower()
+count=0
+for i in sentence:
+    list1=["a","e","i","o","u"]
+    if(i in list1):
+          count=count+1
+print(count)
+                    
+
+
+                                              (or)
+
+
+sentence=input("enter the sentence: ")
+sentence.lower()
+count=0
+for i in range(0,len(sentence)):
+    list1=["a","e","i","o","u"]
+    if(sentence[i] in list1):
+          count=count+1
+print(count)

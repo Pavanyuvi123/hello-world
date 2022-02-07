@@ -1,0 +1,18 @@
+N=int(input("enter the value: "))
+value=N**0.5
+print("the square root of ",N," is : ",value)
+
+
+
+
+            or
+
+
+
+import math
+N=int(input("enter the value: "))
+value=math.sqrt(N)
+print("the square root of ",N," is : ",value)
+
+    
+      

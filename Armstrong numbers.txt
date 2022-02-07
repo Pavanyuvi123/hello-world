@@ -1,0 +1,11 @@
+Armstrong is defined as the number of n digits which is equal to the sum of nth power of its digits
+for i in range(1001):
+    num=i
+    result=0
+    n=len(str(num))
+    while (i!=0):
+        digit=i%10
+        result=result+digit**n
+        i=i//10
+    if num==result:
+        print(result)
